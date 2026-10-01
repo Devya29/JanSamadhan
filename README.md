@@ -1,19 +1,14 @@
-<<<<<<< HEAD
+
 # जनसमाधान · Jansamadhan
 
-**Civic Problem Intelligence Platform** — a frontend for turning fragmented citizen
+**Civic Problem Intelligence Platform** - a frontend for turning fragmented citizen
 complaints into prioritized, actionable civic issues for local authorities.
 
 Citizens report problems (water supply, potholes, garbage, streetlights, drainage,
 etc.). The platform groups related complaints into a single **civic issue**, scores
-it for priority, and gives authorities a dashboard to assign, track, and resolve it —
+it for priority, and gives authorities a dashboard to assign, track, and resolve it-
 while citizens can follow progress and confirm whether a fix actually worked.
 
-This is a **frontend-only** build. All data (complaints, issues, users, analytics)
-is mock data served through a local service layer in `src/services`, so the UI is
-fully interactive and demoable without a backend. The service layer is written so
-it can be swapped for real API calls later without redesigning the UI — see the
-`TODO` comments in `src/services/*.js` and `src/pages/Login.jsx`.
 
 ## Tech stack
 
@@ -44,12 +39,5 @@ npm run preview
 
 
 
-## Notes on the mock backend
 
-Look for `TODO` comments across `src/services/` and `src/pages/Login.jsx` — they
-mark every spot where a real backend (auth, database, AI grouping/priority
-scoring) would replace the current mock logic.
-=======
-# JS ( JanSamadhan  )
-An AI-powered platform for detecting, analyzing, and managing systemic civic problems from citizen complaints.
->>>>>>> 0d81fc0dda74dc1e520743aee3c04d82f6f5fa2b
+
