@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # जनसमाधान · Jansamadhan
 
 **Civic Problem Intelligence Platform** — a frontend for turning fragmented citizen
@@ -48,3 +49,7 @@ npm run preview
 Look for `TODO` comments across `src/services/` and `src/pages/Login.jsx` — they
 mark every spot where a real backend (auth, database, AI grouping/priority
 scoring) would replace the current mock logic.
+=======
+# JS ( JanSamadhan  )
+An AI-powered platform for detecting, analyzing, and managing systemic civic problems from citizen complaints.
+>>>>>>> 0d81fc0dda74dc1e520743aee3c04d82f6f5fa2b
