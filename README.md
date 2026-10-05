@@ -59,7 +59,7 @@ The system is designed to use complaint information such as semantic similarity,
 
 - React 19
 - Vite 8
-- JavaScript / JSX
+- JavaScript
 - React Router 7
 - Lucide React
 
