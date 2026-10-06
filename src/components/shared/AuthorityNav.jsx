@@ -9,9 +9,9 @@ const links = [
 { to: "/authority", label: "Dashboard", end: true },
 { to: "/authority/issues", label: "Issues", end: false },
 { to: "/authority/complaints", label: "Complaints", end: false },
-{ to: "/authority/map", label: "Map", end: false },
+/*{ to: "/authority/map", label: "Map", end: false },*/
 { to: "/authority/resolved", label: "Resolved", end: false },
-{ to: "/authority/notifications", label: "Notifications", end: false },
+/*{ to: "/authority/notifications", label: "Notifications", end: false },*/
 { to: "/authority/profile", label: "Profile", end: false }];
 
 

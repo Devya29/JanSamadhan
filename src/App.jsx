@@ -11,7 +11,7 @@ import MyComplaints from "@/pages/citizen/MyComplaints";
 import ComplaintDetail from "@/pages/citizen/ComplaintDetail";
 import MyCivicIssues from "@/pages/citizen/MyCivicIssues";
 import IssueDetail from "@/pages/citizen/IssueDetail";
-import CitizenNotifications from "@/pages/citizen/CitizenNotifications";
+{/*import CitizenNotifications from "@/pages/citizen/CitizenNotifications";*/}
 import CitizenProfile from "@/pages/citizen/CitizenProfile";
 
 import AuthorityNav from "@/components/shared/AuthorityNav";
@@ -19,9 +19,9 @@ import AuthorityDashboard from "@/pages/authority/AuthorityDashboard";
 import AuthorityIssues from "@/pages/authority/AuthorityIssues";
 import AuthorityIssueDetail from "@/pages/authority/AuthorityIssueDetail";
 import AuthorityComplaints from "@/pages/authority/AuthorityComplaints";
-import LocalityMap from "@/pages/authority/LocalityMap";
+{/*import LocalityMap from "@/pages/authority/LocalityMap";*/}
 import ResolvedIssues from "@/pages/authority/ResolvedIssues";
-import AuthorityNotifications from "@/pages/authority/AuthorityNotifications";
+{/*import AuthorityNotifications from "@/pages/authority/AuthorityNotifications";*/}
 import AuthorityProfile from "@/pages/authority/AuthorityProfile";
 
 function CitizenLayout() {
@@ -63,7 +63,7 @@ function AppRoutes() {
         <Route path="complaints/:id" element={<ComplaintDetail />} />
         <Route path="issues" element={<MyCivicIssues />} />
         <Route path="issues/:id" element={<IssueDetail />} />
-        <Route path="notifications" element={<CitizenNotifications />} />
+        {/*<Route path="notifications" element={<CitizenNotifications />} />*/}
         <Route path="profile" element={<CitizenProfile />} />
       </Route>
 
@@ -72,9 +72,9 @@ function AppRoutes() {
         <Route path="issues" element={<AuthorityIssues />} />
         <Route path="issues/:id" element={<AuthorityIssueDetail />} />
         <Route path="complaints" element={<AuthorityComplaints />} />
-        <Route path="map" element={<LocalityMap />} />
+       {/* <Route path="map" element={<LocalityMap />} />*/}
         <Route path="resolved" element={<ResolvedIssues />} />
-        <Route path="notifications" element={<AuthorityNotifications />} />
+       {/* <Route path="notifications" element={<AuthorityNotifications />} />*/}
         <Route path="profile" element={<AuthorityProfile />} />
       </Route>
 

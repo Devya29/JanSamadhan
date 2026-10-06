@@ -1,3 +1,4 @@
+{/*
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getActiveIssues } from "@/services/issueService";
@@ -46,7 +47,7 @@ export default function LocalityMap() {
       <h1 className="font-display text-2xl font-bold text-foreground mb-1">Map / Locality View</h1>
       <p className="text-muted-foreground text-sm mb-5">Civic issues by area. Click a marker to see issue details.</p>
 
-      {/* Filters */}
+    
       <div className="flex flex-wrap gap-2 mb-5">
         <select value={categoryFilter} onChange={(e) => setCategoryFilter(e.target.value)}
         className="border border-border rounded px-3 py-1.5 text-sm bg-card focus:outline-none">
@@ -59,7 +60,9 @@ export default function LocalityMap() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-        {/* Map canvas */}
+      
+       
+      
         <div className="lg:col-span-2 bg-card border border-border rounded-md overflow-hidden">
           <div className="bg-teal/5 p-3 border-b border-border">
             <p className="text-xs font-mono-civic text-muted-foreground">Bhopal — Civic Issue Map (Schematic)</p>
@@ -70,7 +73,7 @@ export default function LocalityMap() {
               viewBox="0 0 600 400"
               style={{ background: "#F0F4F8" }}>
               
-              {/* Background grid */}
+              
               {[...Array(12)].map((_, i) =>
               <line key={`v${i}`} x1={i * 50} y1="0" x2={i * 50} y2="400" stroke="#D6D3CE" strokeWidth="0.5" />
               )}
@@ -78,14 +81,14 @@ export default function LocalityMap() {
               <line key={`h${i}`} x1="0" y1={i * 50} x2="600" y2={i * 50} stroke="#D6D3CE" strokeWidth="0.5" />
               )}
 
-              {/* Area labels */}
+              
               {Object.entries(areaPositions).map(([area, pos]) =>
               <text key={area} x={pos.x} y={pos.y - 30} textAnchor="middle" className="text-xs" fontSize="10" fill="#6B7280">
                   {area}
                 </text>
               )}
 
-              {/* Issue markers */}
+             
               {filtered.map((issue) => {
                 const pos = areaPositions[issue.area];
                 if (!pos) return null;
@@ -104,7 +107,7 @@ export default function LocalityMap() {
             </svg>
           </div>
 
-          {/* Legend */}
+          
           <div className="p-3 border-t border-border flex items-center gap-4 text-xs text-muted-foreground">
             {["HIGH", "MEDIUM", "LOW"].map((p) =>
             <div key={p} className="flex items-center gap-1.5">
@@ -116,7 +119,6 @@ export default function LocalityMap() {
           </div>
         </div>
 
-        {/* Side panel */}
         <div className="flex flex-col gap-3">
           {selectedIssue ?
           <div className="bg-card border border-border rounded-md p-4">
@@ -168,3 +170,4 @@ export default function LocalityMap() {
     </div>);
 
 }
+*/}

@@ -51,7 +51,7 @@ export default function AuthorityDashboard() {
     <div className="jc-body min-h-full px-4 py-8" style={{ background: PAPER }}>
       <div className="max-w-5xl mx-auto">
         <h1 className="jc-heading text-2xl font-bold mb-1" style={{ color: INK }}>Authority Dashboard</h1>
-        <p className="text-sm mb-6" style={{ color: INK_SOFT }}>Sector 4, Bhopal — civic issue overview.</p>
+        <p className="text-sm mb-6" style={{ color: INK_SOFT }}>Sector 4, Bhopal - civic issue overview.</p>
 
         {/* 4 clickable cards */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10">

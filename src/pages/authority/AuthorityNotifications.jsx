@@ -1,3 +1,4 @@
+{/*
 import { useState } from "react";
 import { getNotifications, markAllRead } from "@/services/notificationService";
 
@@ -45,3 +46,4 @@ export default function AuthorityNotifications() {
     </div>);
 
 }
+*/}

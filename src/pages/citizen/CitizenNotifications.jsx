@@ -1,4 +1,5 @@
-import { useState } from "react";
+{/*
+  import { useState } from "react";
 import { getNotifications, markAllRead } from "@/services/notificationService";
 
 import { NOTIFICATION_ICONS } from "@/lib/notificationIcons";
@@ -51,4 +52,4 @@ export default function CitizenNotifications() {
       </div>
     </div>);
 
-}
+}*/}

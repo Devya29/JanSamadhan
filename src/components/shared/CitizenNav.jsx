@@ -10,7 +10,7 @@ const links = [
 { to: "/citizen/report", label: "Report", end: false },
 { to: "/citizen/complaints", label: "My Complaints", end: false },
 { to: "/citizen/issues", label: "Civic Issues", end: false },
-{ to: "/citizen/notifications", label: "Notifications", end: false },
+/*{ to: "/citizen/notifications", label: "Notifications", end: false },*/
 { to: "/citizen/profile", label: "Profile", end: false }];
 
 
